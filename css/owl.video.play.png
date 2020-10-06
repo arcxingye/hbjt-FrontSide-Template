@@ -1,0 +1,235 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <link href="http://www.raypwr.com/css/jquery.mCustomScrollbar.css" rel="stylesheet" />
+    <link type="text/css" rel="stylesheet" href="http://www.raypwr.com/css/css.css">
+    <script type="text/javascript" src="http://www.raypwr.com/js/jquery.min.js"></script>
+    <script type="text/javascript" src="http://www.raypwr.com/js/jquery.lazyload.js"></script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>404</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="format-detection" content="email=no"/>
+    <meta name="HandheldFriendly" content="true">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="animate.min.css"/>
+    <link rel="stylesheet" href="bootstrap.min.css"/>
+    <link rel="stylesheet" href="owl.carousel.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <script type="text/javascript" src="../js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.nicescroll.js"></script>
+    <script type="text/javascript" src="../js/owl.carousel.js"></script>
+    <!--<script type="text/javascript" src="js/bootstrap.min.js"></script>-->
+    <script type="text/javascript" src="../js/rem.js"></script>
+    <script type="text/javascript" src="../js/web.js"></script>
+    <!--弹窗插件-->
+    <link rel="stylesheet" href="../venobox/venobox.css" type="text/css" media="screen"/>
+    <script type="text/javascript" src="../venobox/venobox.min.js"></script>
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body class="error_page">
+<!--  header   begin  -->
+    
+
+<header class="clearfix">
+    <ul class="header_links clearfix">
+        <li class="links_search"><a href="javascript:"><img src="http://www.raypwr.com/images/ico_01a.png" width="22" height="22" alt="搜索" /><img src="http://www.raypwr.com/images/ico_01b.png" width="22" height="22" alt="搜索" /></a></li>
+        <!--<li><a href="#" onclick="$('.jtico_tsina').trigger('click')"><img src="/images/shared_ico01a.png" width="22" height="22" alt="新浪微博" /><img src="/images/shared_ico01b.png" width="22" height="22" alt="新浪微博" /></a></li>
+        <li><a href="#"  onclick="$('.jtico_cqq').trigger('click')"><img src="/images/shared_ico02a.png" width="22" height="22" alt="QQ" /><img src="/images/shared_ico02b.png" width="22" height="22" alt="QQ" /></a></li>
+        <li><a href="#" onclick="$('.jtico_weixin').trigger('click')"><img src="/images/shared_ico03a.png" width="22" height="22" alt="微信" /><img src="/images/shared_ico03b.png" width="22" height="22" alt="微信" /></a></li>-->
+    </ul>
+    <h1 class="logo"><a href="../index.html"><img src="http://www.raypwr.com/images/logo.png" width="182" height="54" alt="睿能世纪" /></a></h1>
+    <ul class="nav_list clearfix">
+        <li  ><a href="../index.html" class="nav_item0">首页</a></li>
+        <li ><a href="http://www.raypwr.com/we/" class="nav_item0">关于我们</a></li>
+        <li ><a href="http://www.raypwr.com/skill/" class="nav_item0">睿能世纪技术</a></li>
+        <li ><a href="http://www.raypwr.com/projects/" class="nav_item0">睿能世纪案例</a></li>
+        <li ><a href="http://www.raypwr.com/viewpoint/?MID=131" class="nav_item0">行业视点</a></li>
+        <li ><a href="http://www.raypwr.com/selling/" class="nav_item0">售电业务</a></li>
+        <li ><a href="http://www.raypwr.com/employer/" class="nav_item0">加入我们</a></li>
+    </ul>
+    <!--menu-activator begin-->
+    <a class="menu-activator">
+        <div class="visual">
+            <i class="line line01"></i>
+            <i class="line line02"></i>
+            <i class="line line03"></i>
+        </div>
+    </a>
+    <!--menu-activator end-->
+    <!--nav_phone begin-->
+    <div class="nav_phone">
+        <div class="nav_phone_bg"></div>
+        <div class="nav_phone_box">
+            <a href="../index.html" class="s_a1">首页</a>
+            <a href="http://www.raypwr.com/we/" class="s_a1">关于我们</a>
+            <a href="http://www.raypwr.com/skill/" class="s_a1">睿能世纪技术</a>
+            <a href="http://www.raypwr.com/projects/" class="s_a1">睿能世纪案例</a>
+            <a href="http://www.raypwr.com/viewpoint/?MID=131" class="s_a1">行业视点</a>
+            <a href="http://www.raypwr.com/selling/" class="s_a1">售电业务</a>
+            <a href="http://www.raypwr.com/employer/" class="s_a1">加入我们</a>
+        </div>
+    </div>
+    <!--nav_phone end-->
+</header>
+
+
+<div style="display:none">
+<!-- JiaThis Button BEGIN -->
+<div class="jiathis_style_32x32">
+	<a class="jiathis_button_qzone"></a>
+	<a class="jiathis_button_tsina"></a>
+	<a class="jiathis_button_cqq"></a>
+	<a class="jiathis_button_weixin"></a>
+	<a class="jiathis_button_renren"></a>
+	<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	<a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+</div>
+
+<!--  header   END    -->
+<!--main begin-->
+<main>
+	<div class="error_tip clearfix"> 
+		<h6 class="error_tit"><em>404</em>无法打开页面</h6>	
+		<div class="maybe">
+			<p class="error_item">可能原因：</p>
+			<p>1.网络信号差</p>
+			<p>2.找不到请求的页面</p>
+			<p>3.输入的网站不正确</p>
+		</div>
+		<div class="try">
+			<p class="error_item">可以尝试：</p>
+			<a href="../index.html" class="try_back">返回首页</a>
+		</div>
+	</div>   
+</main>
+<!--main end-->
+<!--  footer   begin  -->
+  
+<footer>
+    <a class="back_top"></a>
+    <div class="footer_area3">
+        <img src="http://www.raypwr.com/upload/image/20170915/54bb5859de8046b998b5d97b79556aa6.jpg" width="132" height="132" />扫描二维码
+    </div>
+    <a href="../index.html" class="footer_logo"><img src="http://www.raypwr.com/images/logo2.png" width="182" height="54" /></a>
+    <div class="footer_area1">
+        <p class="footer_nav clearfix"><a href="http://www.raypwr.com/we/">关于我们</a>|<a href="http://www.raypwr.com/skill/">睿能世纪技术</a>|<a href="http://www.raypwr.com/projects/">睿能世纪案例</a>|<a href="http://www.raypwr.com/viewpoint/?MID=131">行业视点</a>|<a href="http://www.raypwr.com/selling/">售电业务</a>|<a href="http://www.raypwr.com/employer/">加入我们</a>|<a href="http://www.raypwr.com/map/">网站地图</a></p>
+        <p class="copyrights">北京睿能世纪科技有限公司，版权所有：京ICP备11038244号-1<br /><a href="http://www.xinaoyun.com/" target="_blank" >技术支持：华昊联合</a></p>
+    </div>
+    <div class="footer_area2">
+        <h4 class="footer_tit"><a>联系我们 / <em>Contact us</em></a></h4>
+        <p>电话：010-57799160  传真：010-60769699</p>
+        <p>电子邮件地址：service@raypwr.com</p>
+        <p>地址：北京市朝阳区朝阳门外大街6号万通中心A座1701室</p>
+        <ul class="header_links clearfix">
+            <li><a href="owl.video.play.png#" onclick="$('.jtico_tsina').trigger('click')"><img src="http://www.raypwr.com/images/shared_ico01b.png" width="22" height="22" alt="新浪微博" /></a></li>
+            <li><a href="owl.video.play.png#" onclick="$('.jtico_cqq').trigger('click')"><img src="http://www.raypwr.com/images/shared_ico02b.png" width="22" height="22" alt="QQ" /></a></li>
+            <li><a href="owl.video.play.png#" onclick="$('.jtico_weixin').trigger('click')"><img src="http://www.raypwr.com/images/shared_ico03b.png" width="22" height="22" alt="微信" /></a></li>
+        </ul>
+    </div>
+    <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?fb6ef9890c22e10cc338ba3f215a85c8";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+    
+</footer>
+<!--页面滚动动画效果 begin-->
+<script type="text/javascript" src="http://www.raypwr.com/js/wow.min.js" ></script>
+<script>
+    if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))) {
+        new WOW().init();
+    };
+    var wow = new WOW({
+        boxClass: 'wow',
+        animateClass: 'animated',
+        offset: 0,
+        live: true,
+        mobile: true
+    });
+    wow.init();
+</script>
+
+
+
+<div style="display:none">
+<!-- JiaThis Button BEGIN -->
+<div class="jiathis_style_32x32">
+	<a class="jiathis_button_qzone"></a>
+	<a class="jiathis_button_tsina"></a>
+	<a class="jiathis_button_cqq"></a>
+	<a class="jiathis_button_weixin"></a>
+	<a class="jiathis_button_renren"></a>
+	<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	<a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+</div>
+<!--sou_warp begin-->
+    <div class="sou_warp">
+        <a href="javascript:" class="sou_closed">×</a>
+        <div class="sou_bg"></div>
+        <form action="http://www.raypwr.com/search/" method="get">
+            <div class="container clearfix">
+            <img src="http://www.raypwr.com/images/logo2.png" class="sou_logo" />
+            <div class="sou_box clearfix">
+                <input type="submit" value="搜 索" class="sou_submit" id="submit"/><div class="sou_write"><input type="text" placeholder="请输入关键词搜索" class="sou_txt" id="keyword" name="keyword"/></div>
+            </div>
+        </div>
+        </form>
+        
+    </div>
+    <script type="text/javascript">
+
+    //sou
+        $(".links_search").click(function(){
+            $(".sou_warp").fadeToggle();
+            $(this).toggleClass("sou_active");
+        });
+        $(".sou_bg").click(function(){
+            $(".sou_warp").fadeOut();
+            $(".sou_link").removeClass("sou_active");
+        });
+        $(".sou_closed").click(function(){
+            $(this).parent().fadeOut();
+            $(".sou_link").removeClass("sou_active");
+        });
+
+</script>
+    <!--sou_warp end-->
+<script>
+    $(function () {
+        $("#submit").click(function () {
+            if ($("#keyword").val() == "" || $("#keyword").val() == null) {
+                alert("请输入您要搜索的关键字！");
+                return false;
+            }
+        });
+    });
+    
+</script>
+
+</body>
+</html>
+

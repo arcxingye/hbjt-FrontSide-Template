@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input name="name" id="name" type="text" required="" onblur="check_name()"/>
+        <span id="name_msg">3-10个字母、数字、下划线</span>
+        <br/>
+        <input name="pass" id="pwd" type="password" required="" onblur="check_pwd()"/>
+        <span id="pwd_msg">6-20个字母、数字、下划线</span>
+        <br/>
+        <input type="button" name="button" value="login" onclick="log()"/>
+    </form>
+    <div id="dl"></div>
+</body>
+<script src="/jquery-3.4.1.js"></script>
+<script>
+    var div = document.getElementById('dl');
+    function check_name(){
+        var input=document.getElementById('name');
+        var span=document.getElementById('name_msg');
+        var name=input.value;
+        var reg=/^\w{3,10}$/;
+        if(name==''){
+            span.className='error.msg';
+            return false;
+            testzh=0;
+        }else{
+            span.className="";
+            return true;
+            testzh=1;
+        }
+    }
+    function check_pwd(){
+        var input=document.getElementById('pwd');
+        var span=document.getElementById('pwd_msg');
+        var pwd=input.value;
+        var reg=/^\w{6,20}$/;
+        if(!reg.test(pwd)){
+            span.className='error_msg';
+            testm=1;
+        }else{
+            span.classNmae="";
+            testm=1;
+        }
+    }
+    function log(){
+        var user=$("#name").val();
+        var mm=$("#pwd").val();
+        $.getJSON("data.json","",function(data){
+            $.each(data.user,function(i,item){
+                if(item.name==user&&item.pass==mm){
+                    alert('welcome');
+                    window.location.href='index.html';
+                }else{
+                    if(i==data.user.length-1){
+                        console.log(testm);
+                        return false;
+                    }
+                }
+            })
+        })
+    }
+</script>
+</html>
